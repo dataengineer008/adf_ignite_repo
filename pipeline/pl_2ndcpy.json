@@ -1,9 +1,9 @@
 {
-	"name": "ignitepipeline1",
+	"name": "pl_2ndcpy",
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1_changed",
+				"name": "Copy data2",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -47,8 +47,6 @@
 				]
 			}
 		],
-		"annotations": [],
-		"lastPublishTime": "2022-12-22T12:41:21Z"
-	},
-	"type": "Microsoft.DataFactory/factories/pipelines"
+		"annotations": []
+	}
 }
